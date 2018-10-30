@@ -77,6 +77,8 @@ padding-left: 100%;
     transition: 0.2s;
 }
 
+
+
 .image{
     -webkit-filter:grayscale(100%);
 }
