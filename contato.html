@@ -59,90 +59,86 @@
 
     <!-- ________SECAO MAIN_________-->
     <main>
+      <div class="fundo">
+        <div class="container">
+            
+        <form id="form_contato" class="p-5" style="">
 
-      <div class="container pt-n">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control bn" id="inputNome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control bn" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
           
-      <form id="form_contato" class="pl-5 pr-5" style="">
-
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputNome">Nome</label>
-            <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome">
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <input type="text" class="form-control bn" id="inputCity" placeholder="Cidade">
+            </div>
+            <div class="form-group col-md-4">
+              <select id="inputState" class="form-control bn">
+                <option selected>Estado</option>
+                <option value="ac">AC</option>
+                <option value="al">AL</option>
+                <option value="ap">AP</option>
+                <option value="am">AM</option>
+                <option value="ba">BA</option>
+                <option value="ce">CE</option>
+                <option value="df">DF</option>
+                <option value="es">ES</option>
+                <option value="go">GO</option>
+                <option value="ma">MA</option>
+                <option value="mt">MT</option>
+                <option value="ms">MS</option>
+                <option value="mg">MG</option>
+                <option value="pa">PA</option>
+                <option value="pb">PB</option>
+                <option value="pr">PR</option>
+                <option value="pe">PE</option>
+                <option value="pi">PI</option>
+                <option value="rj">RJ</option>
+                <option value="rm">RM</option>
+                <option value="rs">RS</option>
+                <option value="ro">RO</option>
+                <option value="rr">RR</option>
+                <option value="sc">SC</option>
+                <option value="sp">SP</option>
+                <option value="se">SE</option>
+                <option value="to">TO</option>
+              </select>
+            </div>
           </div>
 
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Deixe aqui sua mensagem!"></textarea>
+            </div>
           </div>
-        </div>
-        
-        <div class="form-row">
-          <div class="form-group col-md-8">
-            <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">Estado</label>
-            <select id="inputState" class="form-control">
-              <option selected>--</option>
-              <option value="ac">AC</option>
-              <option value="al">AL</option>
-              <option value="ap">AP</option>
-              <option value="am">AM</option>
-              <option value="ba">BA</option>
-              <option value="ce">CE</option>
-              <option value="df">DF</option>
-              <option value="es">ES</option>
-              <option value="go">GO</option>
-              <option value="ma">MA</option>
-              <option value="mt">MT</option>
-              <option value="ms">MS</option>
-              <option value="mg">MG</option>
-              <option value="pa">PA</option>
-              <option value="pb">PB</option>
-              <option value="pr">PR</option>
-              <option value="pe">PE</option>
-              <option value="pi">PI</option>
-              <option value="rj">RJ</option>
-              <option value="rm">RM</option>
-              <option value="rs">RS</option>
-              <option value="ro">RO</option>
-              <option value="rr">RR</option>
-              <option value="sc">SC</option>
-              <option value="sp">SP</option>
-              <option value="se">SE</option>
-              <option value="to">TO</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="exampleFormControlTextarea1">Mensagem</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deixe aqui sua mensagem!"></textarea>
-          </div>
-        </div>
-        
-        <button style="width: 100%" type="submit" class="btn btn-primary">Sign in</button>
-     
-      </form>  
-      </div> 
-
-    </main>
-
-    <!-- ________SECAO FOOTER_________-->
-     <footer> 
-      <div class="card-footer text-muted bg-black mt-5">
-        <div style="flex-direction: row;" class="d-flex align-items-center justify-content-around">
-          <div class="">
-            <img  style="height: 7vh;" src="img/icones/if.png">
-          </div>
-          <div class="">
-          2018 | Literatura Favorável
-          </div>
-  
-        </div>
+          
+          <button style="width: 100%" type="submit" class="btn btn-primary">Sign in</button>
+       
+        </form>  
+        </div> 
       </div>
+
+      </main>
+
+      <!-- ________SECAO FOOTER_________-->
+       <footer> 
+        <div class="card-footer text-muted bg-black mt-5">
+          <div style="flex-direction: row;" class="d-flex align-items-center justify-content-around">
+            <div class="">
+              <img  style="height: 7vh;" src="img/icones/if.png">
+            </div>
+            <div class="">
+            2018 | Literatura Favorável
+            </div>
+    
+          </div>
+        </div>
     </footer>
 
 
